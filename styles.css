@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+body {
+    background: white;
+    color: black;
+    font-family: "Poppins";
+}
+
+section {
+    margin: 15px;
+}
+
+.direct_access > a {
+    text-decoration: none;
+}
+
+.me {
+    width: 100px; 
+    height: 100px;
+    border-radius: 10px;
+}
+
+.principal_div {
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.skill_class {
+    justify-content: flex-start;
+    display: flex;
+    gap: 5px;
+}
+
+.skill_class > p {
+    background-color: bisque;
+    border-radius: 25px;
+    padding: 5px 15px 5px 15px;
+}
