@@ -4,40 +4,75 @@
     font-family: 'Poppins', 'sans-serif';
     box-sizing: border-box;
 }
+
 body {
     background: white;
     color: black;
     font-family: "Poppins";
 }
 
+nav {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 1px 1px gray;
+}
+
 section {
-    margin: 15px;
+    margin: 10px;
+}
+
+section > p {
+    margin-top: 15px;
 }
 
 .direct_access > a {
     text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    margin: 10px;
+}
+
+.xp_img {
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px;
 }
 
 .me {
-    width: 100px; 
-    height: 100px;
+    width: 150px; 
+    height: 150px;
     border-radius: 10px;
 }
 
 .principal_div {
-    width: 80%; 
+    width: 70%; 
     margin-left: auto; 
     margin-right: auto;
+    
 }
 
 .skill_class {
     justify-content: flex-start;
     display: flex;
-    gap: 5px;
+    margin-top: 10px;
+    gap: 10px;
 }
 
 .skill_class > p {
-    background-color: bisque;
+    background-color: rgb(197, 177, 151);
     border-radius: 25px;
     padding: 5px 15px 5px 15px;
+}
+
+.skill_class > p:hover {
+    background-color: rgb(120, 233, 216);
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.skill_class > p:active {
+    background-color: rgb(72, 142, 132);
+    cursor: pointer;
+    border-radius: 25px;
 }
